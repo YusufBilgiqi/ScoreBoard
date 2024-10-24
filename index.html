@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to css -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Link to fonts -->
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <!-- Title -->
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- score board -->
+      <div class="score-board">
+        <!-- Home -->
+        <div class="home">
+          <h2>Home</h2>
+          <h1 id="home-score">0</h1>
+          <div class="home-btn-container">
+            <button id="homePlusOne" onclick="homeAdOne()">+1</button>
+            <button id="homePlusTwo" onclick="homeAdTwo()">+2</button>
+            <button id="homePlusThree" onclick="homeAdThree()">+3</button>
+          </div>
+        </div>
+        <!-- Guest -->
+        <div class="guest">
+          <h2>Guest</h2>
+          <h1 id="guest-score">0</h1>
+          <div class="gust-btn-container">
+            <button id="guestPlusOne" onclick="guestAdOne()">+1</button>
+            <button id="guestPlusTwo" onclick="guestAdTwo()">+2</button>
+            <button id="guestPlusThree" onclick="guestAdThree()">+3</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of score board -->
+    </main>
+    <!-- Script -->
+    <script src="./index.js"></script>
+  </body>
+</html>

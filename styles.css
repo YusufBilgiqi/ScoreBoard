@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  background-color: #0c4a6e;
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+}
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}
+h1 {
+  color: #f94f6d;
+  background-color: black;
+  padding-top: 10px;
+  font-size: 4rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  margin-top: 1rem;
+  width: 80%;
+  margin: auto;
+}
+button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 5px;
+}
+button:hover {
+  cursor: pointer;
+  scale: 1.12;
+  transition: ease-in-out 0.3s;
+}
